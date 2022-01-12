@@ -1,0 +1,24 @@
+{
+  "name": "aiqcomponents-react",
+  "version": "1.0.0",
+  "description": "publish as scoped",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiqfome/aiqcomponents-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aiqfome/aiqcomponents-react/issues"
+  },
+  "homepage": "https://github.com/aiqfome/aiqcomponents-react#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "react": "^17.0.2",
+    "typescript": "^4.5.4"
+  }
+}
