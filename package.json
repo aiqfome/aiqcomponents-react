@@ -4,7 +4,8 @@
   "description": "publish as scoped",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "cz"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,14 @@
   "homepage": "https://github.com/aiqfome/aiqcomponents-react#readme",
   "devDependencies": {
     "@types/react": "^17.0.38",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "3.3.0",
     "react": "^17.0.2",
     "typescript": "^4.5.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
