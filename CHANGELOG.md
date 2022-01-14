@@ -37,3 +37,7 @@ Utilizamos os ícones pra identificar o tipo de alteração feita em cada regist
 **Core** `13/01/2021`
 
 - 🚀 Adiciona o changelog ao projeto
+
+**Core** `13/01/2021`
+
+- 🚀 Adiciona o husky com configuração de pre-push para validação de alteração no changelog, e rodar os testes.
