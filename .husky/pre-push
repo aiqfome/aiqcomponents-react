@@ -12,17 +12,17 @@ then
   exit 0
 fi
 
-if ! git diff HEAD --quiet
-then 
-  printf "\n\n ${RED}As alterações locais não estão todas comitadas. Para garantir que os testes rodem com segurança, a branch local precisa estar em conformidade com a HEAD. ${NC}\n\n"
-else
-  yarn test
-fi
-
 code_files_count=`git --no-pager diff --name-only --cached | grep -E "packages\/(?:package1|package2)\/.+\.(?:js|ts|html)$" | wc -l`
 
 if [ $code_files_count == 0 ]
 then
     printf "\n\n Nenhum arquivo de codigo foi editado, não precisamos rodar os testes! \n\n"
     exit 0
+fi
+
+if ! git diff HEAD --quiet
+then 
+  printf "\n\n ${RED}As alterações locais não estão todas comitadas. Para garantir que os testes rodem com segurança, a branch local precisa estar em conformidade com a HEAD. ${NC}\n\n"
+else
+  yarn test
 fi
