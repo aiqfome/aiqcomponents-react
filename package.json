@@ -1,13 +1,14 @@
 {
-  "name": "aiqcomponents-react",
-  "version": "1.0.0",
+  "name": "@aiqteam/aiqcomponents-react",
+  "version": "0.0.0",
   "description": "A biblioteca de componentes para projetos react do aiqfome!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
     "commit": "cz",
     "prepare": "husky install",
-    "lint": "eslint --config .eslintrc"
+    "lint": "eslint --config .eslintrc",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -32,7 +33,8 @@
     "husky": "7.0.0",
     "prettier": "2.5.1",
     "react": "17.0.2",
-    "typescript": "4.5.4"
+    "typescript": "4.5.4",
+    "semantic-release": "^18.0.1"
   },
   "config": {
     "commitizen": {

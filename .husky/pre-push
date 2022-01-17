@@ -1,6 +1,8 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+yarn test
+
 #!/bin/bash
 SRC_PATTERN="CHANGELOG.md"
 RED='\033[0;31m'
