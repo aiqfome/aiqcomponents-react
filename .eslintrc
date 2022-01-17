@@ -42,10 +42,5 @@
     "react-hooks/exhaustive-deps": "warn",
     "no-use-before-define": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }]
-  },
-  "settings": {
-    "import/resolver": {
-      "typescript": {}
-    }
   }
 }
