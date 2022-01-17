@@ -1,7 +1,7 @@
 ---
 title: Changelog
 description: Changelog para o @aiqfome/aiqcomponents-react
-slug: "/changelog"
+slug: '/changelog'
 ---
 
 ## CHANGELOG
@@ -42,3 +42,7 @@ Utilizamos os ícones pra identificar o tipo de alteração feita em cada regist
 
 - 🚀 Adiciona o husky com configuração de pre-push para validação de alteração no changelog, e rodar os testes.
 - 🚀 Adiciona templates para bug e feature para abertura de issues no github.
+
+**Core** `17/01/2021`
+
+- 🚀 Adiciona o semantic release para integração com o github actions.
