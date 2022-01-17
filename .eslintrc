@@ -28,15 +28,6 @@
   "rules": {
     "prettier/prettier": "error",
     "react/prop-types": "off",
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        "js": "never",
-        "ts": "never",
-        "tsx": "never"
-      }
-    ],
     "react-hooks/rules-of-hooks": "error",
     "@typescript-eslint/no-explicit-any": "off",
     "react-hooks/exhaustive-deps": "warn",
