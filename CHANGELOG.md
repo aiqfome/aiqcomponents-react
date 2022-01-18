@@ -46,3 +46,4 @@ Utilizamos os ícones pra identificar o tipo de alteração feita em cada regist
 **Core** `17/01/2021`
 
 - 🚀 Adiciona o semantic release para integração com o github actions.
+- 🚀 Adiciona configurações básicas do Storybook, Jest, React-Testing, Babel e build
