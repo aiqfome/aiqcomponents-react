@@ -14,7 +14,11 @@
     "prepare": "husky install",
     "lint": "eslint --config .eslintrc",
     "semantic-release": "semantic-release",
+    "clean-dist": "rimraf dist",
+    "clean": "yarn clean-dist && rimraf node_modules",
+    "prebuild": "rimraf dist/",
     "build": "rollup -c",
+    "prestorybook": "rimraf node_modules/.cache/storybook",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -47,8 +51,12 @@
     "eslint-plugin-react-hooks": "4.3.0",
     "husky": "7.0.0",
     "prettier": "2.5.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "rimraf": "3.0.2",
     "semantic-release": "^18.0.1",
-    "typescript": "4.5.4"
+    "typescript": "4.5.4",
+    "webpack": "5.66.0"
   },
   "config": {
     "commitizen": {
