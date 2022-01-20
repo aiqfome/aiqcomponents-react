@@ -1,6 +1,6 @@
 {
   "name": "@aiqteam/aiqcomponents-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A biblioteca de componentes para projetos react do aiqfome!",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
